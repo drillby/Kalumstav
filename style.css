@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: default;
+}
+
+.logo {
+  max-width: 100%;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.uvodni-text {
+  font-size: 150%;
+  text-align: center;
+}
+
+.seznam-praci {
+  margin-left: 40%;
+  text-align: left;
+  font-size: 150%;
+}
+
+.zajistujeme {
+  margin-left: -10%;
+}
+
+.pozadi {
+  background-image: url("titulni_foto.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height: 400px;
+  color: white;
+  text-align: center;
+}
+
+.kontakt {
+  padding-top: 1%;
+}
+
+.kontakt h1 {
+  text-decoration: underline;
+}
+
+.informace {
+  font-size: 120%;
+  line-height: 80%;
+}
+
+.email {
+  color: white;
+}
+
+.kontakt a {
+  color: white;
+}
+
+.galerie-box {
+  text-align: center;
+  font-size: 150%;
+}
+
+.galerie-box a {
+  color: black;
+}
+
+.obrazky {
+  text-align: center;
+}
+
+@media screen and (max-width: 900) {
+  .logo {
+    max-width: 100%;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .seznam-praci {
+    margin-left: 20%;
+  }
+}
